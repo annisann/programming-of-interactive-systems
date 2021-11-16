@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ffe2f8-97c4-4221-8479-d87a06ece440" name="Default Changelist" comment="" />
+    <list default="true" id="09ffe2f8-97c4-4221-8479-d87a06ece440" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/androidTest/java/com/example/event/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityThree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityTwo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_three.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/app/src/test/java/com/example/event/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +64,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2107xNMRrhhXpxuTrRtEgz0uNH5" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
