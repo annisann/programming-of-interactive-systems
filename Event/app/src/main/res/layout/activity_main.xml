@@ -6,38 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/containermenu"
+    <Button
+        android:id="@+id/btnMenu1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="243dp">
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="segitiga"
+        app:layout_constraintBottom_toTopOf="@+id/btnMenu2"
+        app:layout_constraintEnd_toEndOf="@+id/textMenu"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/textMenu"
+        app:layout_constraintTop_toBottomOf="@+id/textMenu" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hitung Luas Bangun Datar"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="124dp"
-            tools:layout_editor_absoluteY="237dp" />
+    <Button
+        android:id="@+id/btnMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="262dp"
+        android:text="lingkaran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnMenu1"
+        app:layout_constraintStart_toStartOf="@+id/btnMenu1"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenu1" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="segitiga"
-            tools:layout_editor_absoluteX="154dp"
-            tools:layout_editor_absoluteY="280dp" />
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="16dp"
+        android:text="Hitung Luas Bangun Datar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMenu1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="lingkaran"
-            tools:layout_editor_absoluteX="145dp"
-            tools:layout_editor_absoluteY="352dp" />
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

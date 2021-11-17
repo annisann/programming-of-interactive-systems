@@ -13,7 +13,16 @@
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteY="276dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasil"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="421dp" />
 
     <Button
         android:id="@+id/button4"
@@ -21,14 +30,6 @@
         android:layout_height="wrap_content"
         android:text="hitung"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="321dp" />
+        tools:layout_editor_absoluteY="352dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="390dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
