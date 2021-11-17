@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:gravity="center"
+        android:hint="radius"
         android:inputType="number"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="276dp" />
