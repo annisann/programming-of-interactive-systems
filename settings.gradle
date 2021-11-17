@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Event"
 include ':app'
+include ':viewmodel-livedata'
