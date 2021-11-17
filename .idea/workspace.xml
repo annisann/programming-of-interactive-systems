@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09ffe2f8-97c4-4221-8479-d87a06ece440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Event/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/ActivityTwo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/java/com/example/event/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_three.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Event/app/src/main/res/layout/activity_two.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
