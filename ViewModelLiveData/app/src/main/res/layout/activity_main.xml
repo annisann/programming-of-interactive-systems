@@ -8,11 +8,12 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvData"
-        android:layout_width="321dp"
-        android:layout_height="309dp"
-        android:layout_marginBottom="28dp"
+        android:layout_width="318dp"
+        android:layout_height="367dp"
+        android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
