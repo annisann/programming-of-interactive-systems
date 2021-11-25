@@ -2,6 +2,7 @@ package com.example.viewmodel_livedata
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,9 +17,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val viewModel = ViewModelProvider(this).get(VMDataMhs::class.java)
-        viewModel.getData().observe(this, Observer {
-            tvName.text = it.toString()
-        })
+//        viewModel.getData().observe(this, Observer {
+//            tvName.text = it.toString()
+//            tvNim.text = it.toString()
+//            tvClass.text.toString()
+//        })
 
         val adapter = AdapterDataMhs(viewModel.getData())
         val rv = findViewById<RecyclerView>(R.id.rvData)
@@ -28,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         btnSimpan.setOnClickListener{
             viewModel.addData(DataMhs(etName.text.toString(), etNim.text.toString(), etClass.text.toString()))
             adapter.notifyDataSetChanged()
+            Toast.makeText(applicationContext, "Menambahkan data berhasil.", Toast.LENGTH_SHORT).show()
         }
 
     }
