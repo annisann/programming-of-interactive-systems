@@ -6,13 +6,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.RecyclerView
-import org.w3c.dom.Text
 
-class AdapterDataMhs (val datamhs: LiveData<List<DataMhs>>) : RecyclerView.Adapter<AdapterDataMhs.TodoViewHolder>(){
+class AdapterDataMhs (var datamhs: LiveData<List<DataMhs>>) :
+    RecyclerView.Adapter<AdapterDataMhs.TodoViewHolder>() {
 
-    inner class TodoViewHolder(items: View) : RecyclerView.ViewHolder(items)
+    inner class TodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-    override fun onCreateViewHolder(
+    override fun onCreateViewHolder( /** menampilkan view holder **/
         parent: ViewGroup,
         viewType: Int
     ): TodoViewHolder {
@@ -20,7 +20,7 @@ class AdapterDataMhs (val datamhs: LiveData<List<DataMhs>>) : RecyclerView.Adapt
         return TodoViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: AdapterDataMhs.TodoViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: TodoViewHolder, position: Int) { /** mengatur posisi item **/
         holder.itemView.apply {
             val namaMhs = findViewById<TextView>(R.id.tvName)
             val nimMhs = findViewById<TextView>(R.id.tvNim)
@@ -32,7 +32,7 @@ class AdapterDataMhs (val datamhs: LiveData<List<DataMhs>>) : RecyclerView.Adapt
         }
     }
 
-    override fun getItemCount(): Int {
+    override fun getItemCount(): Int { /**  **/
         return datamhs.value?.size?:0
     }
 
