@@ -1,6 +1,9 @@
 import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.subscribeBy
+import java.io.File
+import java.io.FileNotFoundException
 
 fun main(args: Array<String>){
 
@@ -28,6 +31,24 @@ fun main(args: Array<String>){
         onNext = { println(it) }
     )
     subscriptions.add(subscriberDua)
+
+    fun loadText(filename: String): Single<String> {
+        return Single.create create@{ emitter ->
+            val file = File(filename)
+            if(!file.exists()){
+                emitter.onError(FileNotFoundException("File tidak ditemukan $filename"))
+                return@create
+            }
+            val contents = file.readText(Charsets.UTF_8)
+            emitter.onSuccess(contents)
+        }
+    }
+
+    val subscriberText = loadText("baca.txt").subscribeBy(
+        onSuccess = { println(it) },
+        onError = { println("Error, $it")}
+    )
+    subscriptions.add(subscriberText)
 
     subscriptions.dispose()
 }
